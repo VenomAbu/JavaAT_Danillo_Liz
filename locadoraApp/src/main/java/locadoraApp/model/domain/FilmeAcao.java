@@ -2,8 +2,6 @@ package locadoraApp.model.domain;
 
 public class FilmeAcao extends Filme {
 	
-	private int id;
-	
 	private String nome;
 	private String descricao;
 	private int popularidade;
@@ -48,15 +46,5 @@ public class FilmeAcao extends Filme {
 	public void setPopularidade(int popularidade) {
 		this.popularidade = popularidade;
 	}
-
-	public int getId() {
-		return id;
-	}
-
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	
 }

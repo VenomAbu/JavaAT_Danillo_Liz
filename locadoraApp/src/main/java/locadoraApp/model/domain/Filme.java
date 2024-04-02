@@ -4,11 +4,11 @@ public class Filme {
 	
 	private int id;
 	
-	private String titulo;
-	private String autor;
-	private int anoPublicacao;
-	private String genero;
-	private boolean disponibilidade;
+	protected String titulo;
+	protected String autor;
+	protected int anoPublicacao;
+	protected String genero;
+	protected boolean disponibilidade;
 	
 	
 	

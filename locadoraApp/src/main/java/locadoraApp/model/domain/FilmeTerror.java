@@ -2,8 +2,6 @@ package locadoraApp.model.domain;
 
 public class FilmeTerror extends Filme {
 	
-	private int id;
-	
 	private String tema;
 	private String ambiente;
 	private String monstro;
@@ -46,16 +44,5 @@ public class FilmeTerror extends Filme {
 	}
 	public void setTema(String tema) {
 		this.tema = tema;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-	
-
-	
+	}	
 }
